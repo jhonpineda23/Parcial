@@ -42,3 +42,11 @@ QUOTA UNLIMITED ON RENTING_COLOMBIA;
 
 GRANT DBA TO amartinez;
 GRANT CONNECT, RESOURCE TO amartinez;
+
+-- Log in as "amartinez" and create all tables associated with the normalization process, 
+--create sequences, add all the constraints you consider it a) Attach a screenshot of the diagram punto5.png and 
+--export a file named renting.sql using SQLDeveloper (0.1) b) Normalitazion: 1.5
+
+CREATE SEQUENCE CATEGORIES
+INCREMENT BY 12
+START WITH 12 MINVALUE 12;
